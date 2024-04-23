@@ -25,7 +25,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for usage of your application.' 
+        message: 'Provide instructions and examples for usage of your application.'
     },
     {
         type: 'input',
@@ -36,22 +36,22 @@ const questions = [
         type: 'input',
         name: 'contributing',
         //contributing the same thing as credits?
-        message: 'List your collaborators, if any, with links to their GitHub profiles as well as any other assets you may have used.' 
+        message: 'List your collaborators, if any, with links to their GitHub profiles as well as any other assets you may have used.'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Write tests for your application here.' 
+        message: 'Write tests for your application here.'
     },
     {
         type: 'input',
         name: 'question',
-        message: 'Any questions you have.'   
+        message: 'Any questions you have.'
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { 
+function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err, result) => {
         if (err) throw err;
         console.log('file created');
@@ -61,11 +61,11 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-    .prompt(questions)
-    .then((response) =>{
-        writeToFile('README.md', generateMarkdown(response))
-    })
- }
+        .prompt(questions)
+        .then((response) => {
+            writeToFile('README.md', generateMarkdown(response))
+        })
+}
 
 // Function call to initialize app
 init();
