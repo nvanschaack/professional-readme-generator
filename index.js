@@ -35,8 +35,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        //contributing the same thing as credits?
-        message: 'List your collaborators, if any, with links to their GitHub profiles as well as any other assets you may have used.'
+        message: 'I would list steps here to show how to contribute to this repo, like forking'
     },
     {
         type: 'input',
@@ -66,6 +65,9 @@ function init() {
             writeToFile('README.md', generateMarkdown(response))
         })
 }
-
+// async function init () {
+//     const reponse = await inquirer.prompt(questions)
+//     writeToFile('README.md', generateMarkdown(response))
+// }
 // Function call to initialize app
 init();
