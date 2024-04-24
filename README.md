@@ -2,7 +2,7 @@
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This application allows a user to generate their own readme by answering a few prompts in a terminal. The product is a complete readme file with all of the users personal inputs.
+This application allows a user to generate their own readme by answering a few prompts in the terminal. The product is a complete readme file with all of the users personal inputs.
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -12,10 +12,10 @@ This application allows a user to generate their own readme by answering a few p
 - [Contributing](#contributing)
 
 ## Installation
-You can clone this repositor to your local drive to begin generating your own readme files.
+You can clone this repository to your local drive to begin generating your own readme files.
 
 ## Usage
-Run node index.js into your terminal once you are in the correct PWD. The the terminal application will begin showing prompts one at a time and you will type your answers directly into the terminal. Once the terminal reads "File Created", you can click on the newly generated readme.
+Run ‘node index.js’ into your terminal once you are in the correct PWD. The application terminal will begin showing prompts one at a time and you will type your answers directly into the terminal. Once the terminal reads "File Created", you can click on the newly generated readme.
 
 ## License
   
