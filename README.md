@@ -1,8 +1,8 @@
-# fffw
+# title
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-sdfsdf
+description
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -12,10 +12,10 @@ sdfsdf
 - [Contributing](#contributing)
 
 ## Installation
-sdfs
+steps
 
 ## Usage
-sdfs
+usage
 
 ## License
   
@@ -23,14 +23,14 @@ sdfs
 
 ## Contributing
 
-sfdf
+steps
 
 ## Tests
 
-sffd
+n/a
 
 ## Questions
 
-My GitHub username is: nvanschaack. The link to this Repo is https://github.com/nvanschaack/fffw.
+My GitHub username is: nvanschaack. The link to my github profile is https://github.com/nvanschaack.
 You can reach me with additional questions at nell@email.com.
 

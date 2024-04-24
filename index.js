@@ -38,7 +38,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: colors.magenta('I would list steps here to show how to contribute to this repo, like forking'),
+        message: colors.magenta('List steps to inform the user of your application of how to contribute to your applications repository.'),
     },
     {
         type: 'input',
