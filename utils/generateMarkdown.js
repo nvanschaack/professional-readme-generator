@@ -66,7 +66,7 @@ ${data.tests}
 
 ## Questions
 
-My GitHub username is: ${data.github}. The link to this Repo is https://github.com/${data.github}/${data.title}.
+My GitHub username is: ${data.github}. The link to my github profile is https://github.com/${data.github}.
 You can reach me with additional questions at ${data.email}.
 
 `;
