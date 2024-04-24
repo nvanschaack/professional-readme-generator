@@ -1,30 +1,31 @@
 # Project Title
-  vdfnbnf
+  title
 
 ## Description
-gfd ns 
+description
 
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Contributing](#contributing)
 
 ## Installation
-gfbsfbgfs
+steps to install
 
 ## Usage
-bfsbfgsbg
+usage
 
 ## License
 Please refer to the license in the repo.
-gfbfbdf
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-bfgbfgsdbd
+steps
 
 ## Tests
-fgbsf
+tests
 
 ## Questions
 undefined

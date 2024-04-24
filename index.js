@@ -28,9 +28,10 @@ const questions = [
         message: 'Provide instructions and examples for usage of your application.'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'Paste your license here.'
+        message: 'Choose which license you would like to use.',
+        choices: ['MIT', 'Mozilla', 'Perl', 'IBM', 'ISC']
     },
     {
         type: 'input',
@@ -51,9 +52,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err, result) => {
-        if (err) throw err;
-        console.log('file created');
+    fs.writeFile(fileName, data, (error) => {
+        (error) ?
+        console.log('Try Again')
+        :
+        console.log('File Created');
     })
 }
 
@@ -69,5 +72,6 @@ function init() {
 //     const reponse = await inquirer.prompt(questions)
 //     writeToFile('README.md', generateMarkdown(response))
 // }
+
 // Function call to initialize app
 init();
