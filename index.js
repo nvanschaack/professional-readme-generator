@@ -2,6 +2,8 @@
 //need inquirer package and fs, as well as requiring the generateMarkDown.js to use certain functions listed in its module.exports.
 const inquirer = require('inquirer')
 const fs = require('fs')
+const logo = require('asciiart-logo')
+const colors = require('colors')
 const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
@@ -10,43 +12,48 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What would you like the title of your application to be?'
+        message: colors.magenta('What would you like the title of your application to be?'),
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Write the description of your application.'
+        message: colors.magenta('Write the description of your application.'),
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your application? Provide a step-bystep description of how to get the development environment running.'
+        message: colors.magenta('What are the steps required to install your application? Provide a step-by-step description of how to get the development environment running.'),
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for usage of your application.'
+        message: colors.magenta('Provide instructions and examples for usage of your application.'),
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Choose which license you would like to use.',
-        choices: ['MIT', 'Mozilla', 'Perl', 'IBM', 'ISC']
+        message: colors.magenta('Choose which license you would like to use.'),
+        choices: ['MIT', 'GPLv3', 'Perl', 'IBM', 'ISC', 'None of these']
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'I would list steps here to show how to contribute to this repo, like forking'
+        message: colors.magenta('I would list steps here to show how to contribute to this repo, like forking'),
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Write tests for your application here.'
+        message: colors.magenta('Write tests for your application here.')
     },
     {
         type: 'input',
-        name: 'question',
-        message: 'Any questions you have.'
+        name: 'github',
+        message: colors.magenta('Please enter your GitHub username here.')
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: colors.magenta('Please enter your email here.')
     }
 ];
 
@@ -62,16 +69,15 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    const logoText =  logo({name: 'Readme Generator'}).render()
+    console.log(logoText);
+
     inquirer
         .prompt(questions)
         .then((response) => {
             writeToFile('README.md', generateMarkdown(response))
         })
 }
-// async function init () {
-//     const reponse = await inquirer.prompt(questions)
-//     writeToFile('README.md', generateMarkdown(response))
-// }
 
 // Function call to initialize app
 init();
