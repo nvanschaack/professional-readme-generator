@@ -42,6 +42,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'credits',
+        message: colors.magenta('List collaborators, any third-party assets, and any other assets used to help create your application.'),
+    },
+    {
+        type: 'input',
         name: 'tests',
         message: colors.magenta('Write tests for your application here.')
     },

@@ -60,13 +60,17 @@ ${renderLicenseSection(data.license)}
 
 ${data.contributing}
 
+## Credits
+
+- ${data.credits}
+
 ## Tests
 
 ${data.tests}
 
 ## Questions
 
-My GitHub username is: ${data.github}. The link to my github profile is https://github.com/${data.github}.
+My GitHub username is [${data.github}](https://github.com/${data.github}).
 You can reach me with additional questions at ${data.email}.
 
 `;
