@@ -1,6 +1,6 @@
 # Professional README Generator
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[Link to walkthrough video](https://drive.google.com/file/d/1jZxOBtwnXGn59MfJvW_eHXUEQGBL5gb5/viewLinks)
+[Link to walkthrough video](https://app.screencastify.com/v2/manage/videos/eymWasa4U66BXvB8zt9t)
 ## Description
 This application allows a user to generate their own readme by answering a few prompts in the terminal. The product is a complete readme file with all of the users personal inputs.
 
