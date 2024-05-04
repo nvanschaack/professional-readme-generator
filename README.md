@@ -34,5 +34,5 @@ n/a
 ## Questions
 
 My GitHub username is: [nvanschaack](https://github.com/nvanschaack).
-You can reach me with additional questions at nellvanschaack@email.com.
+You can reach me with additional questions at nellvanschaack@gmail.com.
 
