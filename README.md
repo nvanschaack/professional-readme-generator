@@ -1,6 +1,6 @@
 # Professional README Generator
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
+[Link to walkthrough video](https://drive.google.com/file/d/1jZxOBtwnXGn59MfJvW_eHXUEQGBL5gb5/viewLinks)
 ## Description
 This application allows a user to generate their own readme by answering a few prompts in the terminal. The product is a complete readme file with all of the users personal inputs.
 
@@ -32,5 +32,5 @@ n/a
 ## Questions
 
 My GitHub username is: [nvanschaack](https://github.com/nvanschaack).
-You can reach me with additional questions at nell@email.com.
+You can reach me with additional questions at nellvanschaack@email.com.
 
