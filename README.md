@@ -31,6 +31,6 @@ n/a
 
 ## Questions
 
-My GitHub username is: nvanschaack. The link to my github profile is https://github.com/nvanschaack.
+My GitHub username is: [nvanschaack](https://github.com/nvanschaack).
 You can reach me with additional questions at nell@email.com.
 
